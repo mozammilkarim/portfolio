@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav>
+        <div id="navBar">
+            <ul id="navList">
+                <li id='home' onclick="navItemClassChanger(id)">
+                    <a href="#homeSec" class="navItem">Home</a>
+                </li>
+                <li id='about' onclick="navItemClassChanger(id)">
+                    <a href='#aboutSec' class="navItem">About</a>
+                </li>
+                <li id='photo' onclick="navItemClassChanger(id)">
+                    <a href="#workSec" class="navItem">Work</a>
+                </li>
+                <li id='contact' onclick="navItemClassChanger(id)">
+                    <a href="#contactSec" class="navItem">Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="homeSec">
+        <h3>Abdullah Deewana</h3>
+        <p>Web Developer and a Life Student
+        </p>
+        <div id="imageBox">
+            <img src="myImage1.jpg" alt="myImage" id="myImage">
+        </div>
+    </section>
+    <section id="aboutSec">
+        <div>
+            <h3>Abdullah  Deewana</h3>
+            <hr>
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, nihil. Obcaecati quo, aliquam sed eaque
+            unde illum, doloremque veritatis libero, alias laudantium vel deleniti nostrum iste nisi officiis incidunt
+            nam aspernatur molestias? Blanditiis illum animi facilis beatae explicabo nobis adipisci officiis labore
+            veritatis eaque, sit provident sed reprehenderit delectus facere ab ipsum dolorum fugiat deserunt saepe modi
+            excepturi est necessitatibus? Exercitationem harum repellat sapiente quod laudantium est earum facilis
+            doloremque alias numquam, nesciunt officiis quas illum quia voluptas itaque optio esse aperiam. Iure cum
+            explicabo illum, voluptates distinctio libero dolor eligendi ullam repudiandae ducimus molestias quaerat
+            quam quia, error ipsum tempora, eos beatae neque soluta. Sequi quaerat labore iste commodi excepturi tempore
+            repudiandae consequatur, distinctio aspernatur minima tenetur aperiam cupiditate, autem quos ex.
+
+        </p>
+        <div id="skill">
+            <h3>My Skills</h3>
+            <div>
+                <h4>HTML</h4>
+                <div class="value">
+                    <div id="html"></div>
+                </div>
+            </div>
+            <div>
+                <h4>CSS</h4>
+                <div class="value">
+                    <div id="css"></div>
+                </div>
+            </div>
+            <div>
+                <h4>Java Script</h4>
+                <div class="value">
+                    <div id="js"></div>
+                </div>
+            </div>
+        </div>
+        <div id="achievements">
+            <h4>5+ Projects</h4>
+            <h4>Legit Coding</h4>
+            <h4>Built Alone</h4>
+
+        </div>
+    </section>
+    <section id="workSec">
+        <div>
+            <h3>My Work</h3>
+            <hr>
+        </div>
+        <div id="workLinks">
+            <h4>
+                <a href="http://mozammilkarim.github.io/websiteDevelopment/" target="_blank">
+                    A local Grocery Shop</a>
+            </h4>
+            <h4>
+                <a href="http://mozammilkarim.github.io/karim_DryF/" target="_blank" rel="noopener noreferrer">
+                    A Branded Dry Fruit Store</a>
+            </h4>
+            <h4>
+                <a href="http://mozammilkarim.github.io/notesApp/" target="_blank" rel="noopener noreferrer">
+                    Notes App </a>
+            </h4>
+        </div>
+    </section>
+    <section id="contactSec">
+        <div>
+            <h3>Contact Me</h3>
+            <hr>
+        </div>
+        <div id="details">
+            <div>New Delhi, India</div>
+            <div>Phone: 7827141330</div>
+            <div>E-mail: mozammilkarim@gmail.com</div>
+        </div>
+        <p>Let's get in touch. Send me a message:</p>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="E-mail" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea name="message" id="message" cols="30" rows="10" >I want to Contact You because..
+            </textarea> 
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+    <footer>
+        <!-- place icons here -->
+    </footer>
+    <script defer src="index.js"></script>
+</body>
+
+</html>
